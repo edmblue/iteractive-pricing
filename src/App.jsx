@@ -40,9 +40,9 @@ function App() {
   }, [inputValue, isChecked]);
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen px-6 md:w-3/4 mx-auto">
+    <div className="flex flex-col justify-center items-center h-screen px-6 mx-auto">
       <Header />
-      <main className="bg-white rounded-xl mx-6 w-full text-center shadow-lg">
+      <main className="bg-white rounded-xl mx-6 w-full text-center md:w-[37rem] shadow-lg">
         <div className="space-y-10 p-10 flex flex-col md:gap-2">
           <div className="space-y-10 md:space-y-0 md:flex md:flex-wrap md:items-center md:justify-between md:gap-10">
             <div className="">

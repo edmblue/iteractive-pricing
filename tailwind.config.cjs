@@ -2,6 +2,9 @@
 module.exports = {
   content: ['./index.html', './src/**/*.jsx', './src/**/*.css'],
   theme: {
+    screens: {
+      md: '850px',
+    },
     extend: {
       colors: {
         primarySoftCyan: 'hsl(174, 77%, 80%)',
