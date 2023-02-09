@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 50%;
+    background-image: url('./assets/images/icon-slider.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsl(174, 86%, 45%);
+    cursor: pointer;
+    box-shadow: 0px 10px 25px hsl(174, 86%, 45%);
+  }
+}
